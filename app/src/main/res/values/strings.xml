@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">WuphF</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="navigation_drawer_open">Drawer Open</string>
+    <string name="navigation_drawer_close">Drawer Closed</string>
+
+    <string name="question1">What is Wuphf?</string>
+    <string name="answer1">Watch The Office season 7 episode 9</string>
+    <string name="question2">How do I measure my dog\'s shoe size?</string>
+    <string name="answer2">With a pink pencil</string>
+    <string name="question3">Do dogs use the same conditioner as humans?</string>
+    <string name="answer3">Yes, but try to avoid head n\' shoulders</string>
+    <string name="question4">What\'s better- Dogs or Iguanas?</string>
+    <string name="answer4">dogs</string>
+    <string name="question5">Can I adopt a robot here?</string>
+    <string name="answer5">No</string>
+    <string name="question6">Can I adopt a dinosaur here??</string>
+    <string name="answer6">No</string>
+    <string name="question7">Can I adopt an alien here?</string>
+    <string name="answer7">Yes, but only 3 legged aliens</string>
+    <string name="question8">Dogs prefer potatoes or sweet potatoes?</string>
+    <string name="answer8">When fried, they prefer sweet potatoes, but when cooked in water- potatoes.</string>
+    <string name="question9">When is the annual spelling contest for dogs? And can my dog apply? </string>
+    <string name="answer10">Check out our events page, you will find everything you need to know in there</string>
+    <string name="event1title">The annual spelling contest for dogs</string>
+    <string name="event1descriction">Join us at the most exciting event of the year! The contest will be on Aug 18th, in the Dogs Spelling Academy in the city of Yokne\'am, at 8pm</string>
+    <string name="event2title">Dogs can swin with pigs</string>
+    <string name="event2description">On Sep 2nd we\'ll gather to support friendship between dogs and pigs. The event will take place in Ben Shekalim\'s place at 4pm</string>
+    <string name="event3title">"Wine Tasting"</string>
+    <string name="event3description">"Our dogs make the best wine! Come visit our Winery every friday for the best bonzo brunch in town!"</string>
+</resources>

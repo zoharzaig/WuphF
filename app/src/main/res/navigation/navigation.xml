@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/swipingFragment">
+    <fragment
+        android:id="@+id/faqsFragment"
+        android:name="com.example.wuphf.ui.faqFragment.FaqsFragment"
+        android:label="FaqsFragment" >
+        <action
+            android:id="@+id/action_faqsFragment_to_favoritesFragment"
+            app:destination="@id/favoritesFragment" />
+        <action
+            android:id="@+id/action_faqsFragment_to_swipingFragment"
+            app:destination="@id/swipingFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/favoritesFragment"
+        android:name="com.example.wuphf.ui.favoritesFragment.FavoritesFragment"
+        android:label="fragment_favorites"
+        tools:layout="@layout/fragment_favorites" >
+        <action
+            android:id="@+id/action_favoritesFragment_to_shareDogFragment"
+            app:destination="@id/shareDogFragment" />
+        <action
+            android:id="@+id/action_favoritesFragment_to_faqsFragment"
+            app:destination="@id/faqsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/shareDogFragment"
+        android:name="com.example.wuphf.ui.favoritesFragment.ShareDogFragment"
+        android:label="fragment_share_dog"
+        tools:layout="@layout/fragment_share_dog" >
+        <action
+            android:id="@+id/action_shareDogFragment_to_swipingFragment"
+            app:destination="@id/swipingFragment" />
+        <action
+            android:id="@+id/action_shareDogFragment_to_faqsFragment"
+            app:destination="@id/faqsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/swipingFragment"
+        android:name="com.example.wuphf.ui.allDogsFragment.SwipingFragment"
+        android:label="fragment_swiping"
+        tools:layout="@layout/fragment_swiping" >
+        <action
+            android:id="@+id/action_swipingFragment_to_favoritesFragment"
+            app:destination="@id/favoritesFragment" />
+        <action
+            android:id="@+id/action_swipingFragment_to_faqsFragment"
+            app:destination="@id/faqsFragment" />
+    </fragment>
+</navigation>
